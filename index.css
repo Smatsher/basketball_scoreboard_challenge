@@ -1,0 +1,81 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Cursed Timer';
+    src: url(./cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf);
+}
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 36px;
+    margin-bottom: 0;
+}
+.container {
+    background-color: #1B244A;
+    color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3rem;
+    width: 80%;
+    max-width: 700px;
+    margin: 20vh auto;
+}
+.board {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.para {
+    margin-top: 21px;
+    margin-bottom: 26px;
+    background-color: #080001;
+    color: #F94F6D;
+    font-family: 'Cursed Timer';
+    font-size: 5rem;
+    font-style: normal;
+    width: 100%;
+    height: 7.5rem;
+
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background-color: inherit;
+    font-family: 'Cursed Timer';
+    font-size: 1rem;
+    color: #9AABD8;
+    padding: .7rem;
+    border: 2px solid #9AABD8;
+    border-radius: 10%; 
+}
+button:hover {
+    background-color: #222e63;
+}
+.score-point {
+    width: 100%;
+}
+.newgame {
+    margin-top: 2rem;
+}
+.result {
+    text-shadow: 0 0 1px black;
+    color: #EEEEEE;
+    margin-bottom: 0;
+}
+.result + .result {
+    margin-top: .5rem;
+}
